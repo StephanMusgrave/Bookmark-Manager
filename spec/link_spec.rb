@@ -1,9 +1,9 @@
-require_relative "spec_helper"
-require 'link.rb'
+require 'spec_helper'
 
 describe Link do
 
   context "Demonstration of how datamapper works" do
+    
     it 'should be created and then retrieved from the db' do
       expect(Link.count).to eq(0)
       Link.create(:title => "Makers Academy",
@@ -15,5 +15,7 @@ describe Link do
       link.destroy
       expect(Link.count).to eq(0)
     end
+
   end
+
 end
