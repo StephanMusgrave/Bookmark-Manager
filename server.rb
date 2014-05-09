@@ -1,10 +1,12 @@
 require 'sinatra'
+require_relative 'models'
 
 require "data_mapper"
 
 env = ENV["RACK_ENV"] || "development"
 
 DataMapper.setup(:default, "postgres://localhost/bookmark_manager_#{env}")
+# puts "postgres://localhost/bookmark_manager_#{env}""
 
 require './lib/link' #this must be done after datamapper is initialized
 require './lib/tag'
@@ -38,4 +40,14 @@ get '/users/new' do
   #use quotes to avoid ruby trying to divide the symbol :users by new
   erb :"users/new"
 end 
+
+post '/users' do
+  User.create(:email => params[:email],
+              :password => params[:password])
+  redirect to('/')
+end
+
+
+
+
 
