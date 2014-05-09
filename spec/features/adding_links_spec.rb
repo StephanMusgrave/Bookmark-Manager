@@ -21,14 +21,6 @@ feature "User adds a new link" do
     expect(link.tags.map(&:text)).to include("ruby")
   end
 
-  scenario"filtered by a tag" do
-    visit 'tags/search'
-    expect(page).not_to have_content("Makers Academy")
-    expect(page).not_to have_content("Code.org")
-    expect(page).to have_content("Google")
-    expect(page).to have_content("Bing")
-  end
-
   def add_link(url, title, tags=[])
     within ('#new-link') do
       fill_in 'url', :with => url
@@ -38,5 +30,5 @@ feature "User adds a new link" do
       click_button 'Add link'
     end
   end
-  
+
 end
