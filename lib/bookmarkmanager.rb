@@ -1,5 +1,16 @@
+require 'sinatra/base'
+
+class bookmarkmanager < Sinatra::Base
+  get '/' do
+    'Hello bookmark-manager!'
+  end
+
+  # start the server if ruby file executed directly
+  run! if app_file == $0
+end
+
 require 'sinatra'
-# require_relative 'models'
+require_relative 'models'
 
 require "data_mapper"
 
@@ -46,8 +57,5 @@ post '/users' do
               :password => params[:password])
   redirect to('/')
 end
-
-
-
 
 
