@@ -1,6 +1,5 @@
 # Bookmark-Manager
-A web site app to store url links using an SQL database
-Makers Academy Week 6 project
+Makers Academy Week 6 project: A web site app to store url links using an SQL database
 
 ## Objectives
 We are going to build a bookmark manager, similar to pineapple.io or delicious.com in spirit. A bookmark manager is a good use case for exploring how relational databases work.
@@ -22,14 +21,17 @@ Filter links by a tag
 |Technology                 |Used for                        |
 |---------------------------|--------------------------------|
 |Ruby                       |Programming language       |
-|Sinatra                    |              |
+|Sinatra                    |Web application library and domain-specific language written in Ruby|
+|Postgresql                 |An open source relational database engine|
 |Cucumber                   |TDD: Feature testing    |
-|Rspec                      |TDD: Unit testing
-|Capybara                   |TDD: It simulates how a user would interact with a website|
+|Rspec                      |TDD: Unit testing               |
+|Capybara                   |TDD: Simulates how a user would interact with a website|
+|HTML                       |HyperText Markup Language: the standard markup language used to create web pages|
+|CSS                        |Cascading Style Sheets: a style sheet language used for describing the look and formatting of a document written in a markup language|
 
-## Pairing Partners
+## Developed by
 
-[Steve Musgrave], []
+[Steve Musgrave]
 
 [Steve Musgrave]:https://github.com/StephanMusgrave
 
