@@ -15,15 +15,20 @@ Filter links by a tag
 
 
 ## How to run it
+git clone
+cd
+open
+
+## How to run tests
 
 ## Technologies used
 
 |Technology                 |Used for                        |
 |---------------------------|--------------------------------|
-|Ruby                       |Programming language       |
+|Ruby                       |Programming language            |
 |Sinatra                    |Web application library and domain-specific language written in Ruby|
 |Postgresql                 |An open source relational database engine|
-|Cucumber                   |TDD: Feature testing    |
+|Cucumber                   |TDD: Feature testing            |
 |Rspec                      |TDD: Unit testing               |
 |Capybara                   |TDD: Simulates how a user would interact with a website|
 |HTML                       |HyperText Markup Language: the standard markup language used to create web pages|
@@ -34,7 +39,4 @@ Filter links by a tag
 [Steve Musgrave]
 
 [Steve Musgrave]:https://github.com/StephanMusgrave
-
-A web site app to store url links using an SQL database
-=======================================================
 
