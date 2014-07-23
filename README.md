@@ -1,5 +1,5 @@
 # Bookmark-Manager
-Week 6 project at Makers Academy
+Week 6 project at [Makers Academy]
 A web site app to store url links using an SQL database
 
 ## Learning Objectives
@@ -40,5 +40,6 @@ open
 [Steve Musgrave]
 
 [Steve Musgrave]:https://github.com/StephanMusgrave
+[Makers Academy]:http://www.makersacademy.com
 
 ## Further work to do
